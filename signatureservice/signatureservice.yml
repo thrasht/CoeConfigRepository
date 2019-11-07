@@ -3,7 +3,7 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    url: jdbc:mysql://mysql-db-signatures:3306/students?serverTimezone=UTC
+    url: jdbc:mysql://mysql-db-signatures:3306/signatures
     username: root
     password: mysql
 
