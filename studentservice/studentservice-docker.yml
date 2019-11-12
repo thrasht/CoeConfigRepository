@@ -3,9 +3,9 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    url: jdbc:mysql://localhost:3306/signatures
+    url: jdbc:mysql://mysql-db-students:3306/students
     username: root
     password: mysql
 
 server:
-  port: 8084
+  port: 8081
