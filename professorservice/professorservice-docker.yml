@@ -1,9 +1,9 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
   datasource:
-    url: jdbc:mysql://mysql-db-professors:3306/professors
+    url: jdbc:mysql://mysql-db-school:3306/professors
     username: root
     password: mysql
 
